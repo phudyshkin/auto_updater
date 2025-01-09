@@ -15,7 +15,6 @@ environment:
   flutter: ">=3.3.0"
 
 dependencies:
-  auto_updater_macos: ^1.0.0
   auto_updater_platform_interface: ^1.0.0
   auto_updater_windows: ^1.0.0
   flutter:
@@ -34,7 +33,5 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      macos:
-        default_package: auto_updater_macos
       windows:
         default_package: auto_updater_windows
